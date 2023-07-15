@@ -1,0 +1,46 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content fullscreen="true">
+
+    <ion-img
+    src="https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg"
+    alt="Login Page"
+  ></ion-img>
+ 
+
+  <div id="container">
+  
+    <ion-item lines="none">
+      <ion-input
+        label="Email:"
+        labelPlacement="stacked"
+        [clearOnEdit]="true"
+        placeholder="Enter email"
+      >
+      </ion-input>
+    </ion-item>
+    
+    <ion-item lines="none">
+    <ion-input
+    label="Password"
+    labelPlacement="stacked"
+    type="password"
+    placeholder="Enter password"
+  >
+  </ion-input>
+    </ion-item>
+
+    <ion-button (click)="login()" shape="round" size="small">Login</ion-button>
+
+    <ion-item class="register-button" lines="none" color="none">
+      <p (click)="register()">Register</p>
+    </ion-item>
+  </div>
+
+   
+
+</ion-content>
