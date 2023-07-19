@@ -15,12 +15,12 @@
     <h2>Register an Account</h2>
 
     <ion-item lines="none">
-      <ion-input label="Email:" labelPlacement="stacked" [clearOnEdit]="true" placeholder="Enter email">
+      <ion-input label="Email:" labelPlacement="stacked" [clearOnEdit]="true" placeholder="Enter email" [(ngModel)]="email">
       </ion-input>
     </ion-item>
 
     <ion-item lines="none">
-      <ion-input label="Password" labelPlacement="stacked" type="password" placeholder="Register password">
+      <ion-input label="Password" labelPlacement="stacked" type="password" placeholder="Register password" [(ngModel)]="password">
       </ion-input>
     </ion-item>
 
